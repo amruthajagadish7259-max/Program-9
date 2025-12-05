@@ -1,0 +1,9 @@
+from product import product_details
+def test_product_details():
+  expected_output=(
+    "Product ID:P100\n"
+    "Name:Samsung S20 FE 5G\n"
+    "Quntity:1\n"
+    "Price:28000"
+  )
+  assert product_details("Alice","E1001","IT",55000)==expected_output

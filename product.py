@@ -1,4 +1,4 @@
-def product_details(p_id, name, qty, price):
+def product_details(p_id,name,qty,price):
    result = (
       f"Product ID:{p_id}\n"
       f"Name:{name}\n"
@@ -13,4 +13,4 @@ if __name__ == "__main__":
    name="Samsung S20 FE 5G"
    qty=1
    price=28000
-   print(product_details(p_id, name, qty, price))
+   print(product_details(p_id,name,qty,price))

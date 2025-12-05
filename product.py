@@ -8,10 +8,10 @@ def product_details(p_id,name,qty,price):
   return result
 
 if __name__=="__main__":
-  #sample output(you can change)
-  p_id="P100"
-  name="Samsung S20 FE 5G"
-  qty=1
-  price=28000
-
-  print(product_details(p_id,name,qty,price))
+   #sample output(you can change)
+   p_id="P100"
+   name="Samsung S20 FE 5G"
+   qty=1
+   price=28000
+   
+   print(product_details(p_id,name,qty,price))

@@ -6,4 +6,4 @@ def test_product_details():
     "Quntity:1\n"
     "Price:28000"
   )
-  assert product_details("Alice","E1001","IT",55000)==expected_output
+  assert product_details("P100e","Samsung S20 FE 5G",1,28000)==expected_output
